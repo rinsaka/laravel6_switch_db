@@ -15,6 +15,14 @@
 - Laravel Framework 6.9.0
 - Your MySQL connection id is 8 -- Server version: 8.0.18 MySQL Community Server - GPL
 
+### MySQL
+
+~~~
+CREATE DATABASE laravel_switch_db;
+CREATE USER 'laravel_user'@'localhost' IDENTIFIED BY 'xxxxxxxx';
+GRANT ALL ON laravel_switch_db.* TO 'laravel_user'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+~~~
 
 ## About Laravel
 
